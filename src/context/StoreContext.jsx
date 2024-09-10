@@ -9,7 +9,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = ({ children }) => {
     
     const [cartItem, setCartItem] = useState({});
-    const url = "http://localhost:3000";
+    const url = "https://backend-0qox.onrender.com";
     const [token,setToken] = useState("");
     const [food_list,setFoodList] = useState([]);
 
